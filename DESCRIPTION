@@ -7,7 +7,7 @@ Authors@R:
            family = "Rivers",
            role = c("aut", "cre"),
            email = "training@jumpingrivers.com")
-Description: Practicals and data sets for the Automated Reporting course
+Description: Practicals and data sets for the Automated Reporting course.
 License: GPL-3
 URL: https://www.jumpingrivers.com/
 Depends:
