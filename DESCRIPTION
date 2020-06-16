@@ -1,0 +1,20 @@
+Type: Package
+Package: jrRmd
+Title: Jumping Rivers: Automated Reporting
+Version: 0.1.0
+Authors@R: 
+    person(given = "Jumping",
+           family = "Rivers",
+           role = c("aut", "cre"),
+           email = "training@jumpingrivers.com")
+Description: Practicals and data sets for the Automated Reporting course
+License: GPL-3
+URL: https://www.jumpingrivers.com/
+Depends:
+    R (>= 3.2.0)
+Imports:
+Suggests:
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+RoxygenNote: 7.1.0
