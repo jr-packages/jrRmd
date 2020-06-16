@@ -1,25 +1,25 @@
 Type: Package
 Package: jrRmd
 Title: Jumping Rivers: Automated Reporting
-Version: 0.3.0
+Version: 0.3.1
 Authors@R: 
     person(given = "Jumping",
            family = "Rivers",
            role = c("aut", "cre"),
            email = "training@jumpingrivers.com")
-Description: Practicals and data sets for the Automated Reporting course.
+Description: Practicals and data sets for the Automated
+    Reporting course.
 License: GPL-3
 URL: https://www.jumpingrivers.com/
 Depends:
     R (>= 3.2.0)
 Imports:
-    knitr,
-    rmarkdown,
     dplyr,
-    kableExtra,
     DT,
-    ggplot2
-Suggests:
+    ggplot2,
+    kableExtra,
+    knitr,
+    rmarkdown
 VignetteBuilder: 
     knitr
 Encoding: UTF-8
