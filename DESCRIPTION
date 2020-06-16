@@ -1,7 +1,7 @@
 Type: Package
 Package: jrRmd
 Title: Jumping Rivers: Automated Reporting
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: 
     person(given = "Jumping",
            family = "Rivers",
@@ -13,6 +13,12 @@ URL: https://www.jumpingrivers.com/
 Depends:
     R (>= 3.2.0)
 Imports:
+    knitr,
+    rmarkdown,
+    dplyr,
+    kableExtra,
+    DT,
+    ggplot2
 Suggests:
 VignetteBuilder: 
     knitr
