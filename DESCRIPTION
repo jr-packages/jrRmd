@@ -1,7 +1,7 @@
 Type: Package
 Package: jrRmd
 Title: Jumping Rivers: Automated Reporting
-Version: 0.3.2
+Version: 0.3.3
 Authors@R: 
     person(given = "Jumping",
            family = "Rivers",
@@ -12,15 +12,15 @@ Description: Practicals and data sets for the Automated
 License: GPL-3
 URL: https://www.jumpingrivers.com/
 Depends:
-    R (>= 3.2.0)
+    R (>= 3.5.0)
 Imports:
-    dplyr,
+    dplyr (>= 1.0.0),
     DT,
     gapminder,
     ggplot2,
-    plotly,
     kableExtra,
     knitr,
+    plotly,
     rmarkdown
 VignetteBuilder: 
     knitr
