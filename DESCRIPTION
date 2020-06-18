@@ -1,7 +1,7 @@
 Type: Package
 Package: jrRmd
 Title: Jumping Rivers: Automated Reporting
-Version: 0.3.1
+Version: 0.3.2
 Authors@R: 
     person(given = "Jumping",
            family = "Rivers",
@@ -16,7 +16,9 @@ Depends:
 Imports:
     dplyr,
     DT,
+    gapminder,
     ggplot2,
+    plotly,
     kableExtra,
     knitr,
     rmarkdown
